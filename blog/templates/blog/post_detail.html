@@ -1,0 +1,17 @@
+<!-- blog/templates/blog/post_detail.html -->
+<!DOCTYPE html>
+<html>
+<head><title>{{ post.title }}</title>
+     {% load static %}
+    <link rel="stylesheet" href="{% static 'blog/styles.css' %}">
+</head>
+<body>
+    <h1>{{ post.title }}</h1>
+    <p>{{ post.content|linebreaks }}</p>
+    <small>Published on {{ post.published_at }}</small>
+    <br><br>
+    <a class="edlClass" href="{% url 'post_edit' post.pk %}">Edit</a>
+    <a class="edlClass" href="{% url 'post_delete' post.pk %}">Delete</a>
+    <a class="edlClass" href="{% url 'post_list' %}">← Back to list</a>
+</body>
+</html>
