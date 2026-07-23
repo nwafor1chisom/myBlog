@@ -1,26 +1,91 @@
-📰 MyBlog — A Clean & Minimal Blogging Platform
-🌍 Overview
+# To-Do List
 
-MyBlog is a clean and minimal personal blogging platform built using the Django web framework.
-It allows users to create, edit, view, and delete blog posts effortlessly.
+A simple to-do list application built with Django. It helps users keep track of their daily tasks by allowing them to add, update, complete, and remove tasks.
 
-The project demonstrates key Django fundamentals — including views, models, forms, templates, and static file management — making it a perfect starting point for developers learning Django or exploring full-stack web development.
+## Features
 
-Designed with a simple, elegant interface and custom CSS styling, MyBlog balances usability and clean design to provide a smooth blogging experience.
+- Add new tasks
+- Edit existing tasks
+- Mark tasks as completed
+- Delete tasks
+- View all tasks
+- Simple and clean interface
 
-✨ Features
+## Built With
 
-✅ User-Friendly Interface — Simple and intuitive blog design
-✅ CRUD Functionality — Create, Read, Update, Delete posts easily
-✅ Dynamic Content — Posts stored and retrieved from a real database
-✅ Reusable Templates — Built with Django template inheritance
-✅ Static Files Management — Organized handling of CSS and media
-✅ Extensible Architecture — Clean structure for future upgrades (comments, auth, etc.)
+- Python
+- Django
+- HTML
+- CSS
+- SQLite
 
-🧱 Tech Stack
-Layer	Technology
-Framework	Django (Python)
-Frontend	HTML5, CSS3 (Custom Styling)
-Database	SQLite (Default)
-Template Engine	Django Templates
-Environment	Virtualenv / venv
+## Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/your-username/todo-list.git
+```
+
+### Go to the project directory
+
+```bash
+cd todo-list
+```
+
+### Create a virtual environment
+
+```bash
+python -m venv venv
+```
+
+### Activate the virtual environment
+
+**Windows**
+
+```bash
+venv\Scripts\activate
+```
+
+**macOS/Linux**
+
+```bash
+source venv/bin/activate
+```
+
+### Install the dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Run migrations
+
+```bash
+python manage.py migrate
+```
+
+### Start the development server
+
+```bash
+python manage.py runserver
+```
+
+Open your browser and visit:
+
+```
+http://127.0.0.1:8000/
+```
+
+## Future Improvements
+
+- User authentication
+- Due dates
+- Task categories
+- Search tasks
+- Task priorities
+- Notifications
+
+## License
+
+This project is for learning and practice.
