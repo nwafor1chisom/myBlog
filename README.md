@@ -30,7 +30,7 @@ git clone https://github.com/your-username/todo-list.git
 ### Go to the project directory
 
 ```bash
-cd todo-list
+cd Myblog
 ```
 
 ### Create a virtual environment
