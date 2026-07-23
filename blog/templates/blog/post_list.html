@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Blog</title>
+    <title>My To Do List</title>
     {% load static %}
     <link rel="stylesheet" href="{% static 'blog/styles.css' %}">
 </head>
 <body>
-    <h1>My To Do List</h1>
+    <h1>My To DO List</h1>
     <a href="{% url 'post_new' %}"><button>+ New Post</button></a>
     <hr>
     {% for post in posts %}
